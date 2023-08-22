@@ -1,6 +1,7 @@
+"use client";
 import * as React from "react";
 import Box from "@mui/material/Box";
-import Styles from "./SlidShow.module.css";
+import Styles from "./styles.module.css";
 import photo1 from "./photos/photo1.jpg";
 import photo2 from "./photos/photo2.jpg";
 import photo3 from "./photos/photo3.jpg";
@@ -10,10 +11,10 @@ import photo6 from "./photos/photo6.jpg";
 import photo7 from "./photos/photo7.jpg";
 import photo8 from "./photos/photo8.jpg";
 import photo9 from "./photos/photo9.jpg";
+import { Carousel } from "flowbite-react";
 import Image from "next/image";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
-
 export default function SlidShow() {
   const [sliderRef] = useKeenSlider<HTMLDivElement>(
     {
@@ -50,56 +51,65 @@ export default function SlidShow() {
       },
     ]
   );
-  2;
+
   return (
-    <Box style={{ color: "white", height: "10rem" }}>
-      <div ref={sliderRef} className="keen-slider">
+    <div className={Styles.main}>
+      <div
+        ref={sliderRef}
+        className="keen-slider"
+        style={{
+          height: "60vh",
+          width: "60vw",
+          boxSizing: "border-box",
+          textAlign: "center",
+        }}
+      >
         <Image
           src={photo1}
           alt="/"
-          className={`keen-slider__slide numberSlide1 ${Styles.photo}`}
+          className="keen-slider__slide number-slide1 "
         />
         <Image
           src={photo2}
           alt="/"
-          className={`keen-slider__slide numberSlide2  ${Styles.photo}`}
+          className="keen-slider__slide number-slide2"
         />
         <Image
           src={photo3}
           alt="/"
-          className={`keen-slider__slide numberSlide3 ${Styles.photo} `}
+          className="keen-slider__slide number-slide3"
         />
         <Image
           src={photo4}
           alt="/"
-          className={`keen-slider__slide numberSlide4  ${Styles.photo}`}
+          className="keen-slider__slide number-slide4"
         />
         <Image
           src={photo5}
           alt="/"
-          className={`keen-slider__slide numberSlide4  ${Styles.photo}`}
+          className="keen-slider__slide number-slide5"
         />
         <Image
           src={photo6}
           alt="/"
-          className={`keen-slider__slide numberSlide4  ${Styles.photo}`}
+          className="keen-slider__slide number-slide6"
         />
         <Image
           src={photo7}
           alt="/"
-          className={`keen-slider__slide numberSlide4  ${Styles.photo}`}
+          className="keen-slider__slide number-slide7"
         />
         <Image
           src={photo8}
           alt="/"
-          className={`keen-slider__slide numberSlide4  ${Styles.photo}`}
+          className="keen-slider__slide number-slide8"
         />
         <Image
           src={photo9}
           alt="/"
-          className={`keen-slider__slide numberSlide4  ${Styles.photo}`}
+          className="keen-slider__slide number-slide9"
         />
       </div>
-    </Box>
+    </div>
   );
 }

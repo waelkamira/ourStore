@@ -1,11 +1,10 @@
 import * as React from "react";
-import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import SelectComponent from "./SelectComponent";
 import Styles from "./thirdNavBar.module.css";
 export default function ThirdNavBar() {
   return (
-    <div className={Styles.container}>
+    <div style={{ textAlign: "center" }}>
       <SelectComponent label="كل المنتجات">
         <option>منتج 1</option>
         <option>منتج 2</option>
