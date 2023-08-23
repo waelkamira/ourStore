@@ -1,3 +1,8 @@
+.main {
+  margin-top: 4vw;
+  margin-top: 2vw;
+}
+
 .buttonAndTextBox {
   display: flex;
   justify-content: space-between;
@@ -7,4 +12,12 @@
 }
 .textBox {
   font-family: arabicFont;
+}
+
+.products {
+  margin-top: 1vw;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  gap: 1vw;
 }

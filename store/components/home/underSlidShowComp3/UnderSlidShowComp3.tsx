@@ -12,6 +12,62 @@ const products = [
     price: "450.00 رس",
     discount: "550.00 رس",
   },
+  {
+    photo: photo12,
+    title: "سماعات",
+    subTitle: "سماعات ساوند كور كيو30 فوق الأذن",
+    details: "سماعة ذات صوت عالي الدقة",
+    price: "450.00 رس",
+    discount: "550.00 رس",
+  },
+  {
+    photo: photo12,
+    title: "سماعات",
+    subTitle: "سماعات ساوند كور كيو30 فوق الأذن",
+    details: "سماعة ذات صوت عالي الدقة",
+    price: "450.00 رس",
+    discount: "550.00 رس",
+  },
+  {
+    photo: photo12,
+    title: "سماعات",
+    subTitle: "سماعات ساوند كور كيو30 فوق الأذن",
+    details: "سماعة ذات صوت عالي الدقة",
+    price: "450.00 رس",
+    discount: "550.00 رس",
+  },
+  {
+    photo: photo12,
+    title: "سماعات",
+    subTitle: "سماعات ساوند كور كيو30 فوق الأذن",
+    details: "سماعة ذات صوت عالي الدقة",
+    price: "450.00 رس",
+    discount: "550.00 رس",
+  },
+  {
+    photo: photo12,
+    title: "سماعات",
+    subTitle: "سماعات ساوند كور كيو30 فوق الأذن",
+    details: "سماعة ذات صوت عالي الدقة",
+    price: "450.00 رس",
+    discount: "550.00 رس",
+  },
+  {
+    photo: photo12,
+    title: "سماعات",
+    subTitle: "سماعات ساوند كور كيو30 فوق الأذن",
+    details: "سماعة ذات صوت عالي الدقة",
+    price: "450.00 رس",
+    discount: "550.00 رس",
+  },
+  {
+    photo: photo12,
+    title: "سماعات",
+    subTitle: "سماعات ساوند كور كيو30 فوق الأذن",
+    details: "سماعة ذات صوت عالي الدقة",
+    price: "450.00 رس",
+    discount: "550.00 رس",
+  },
 ];
 export default function UnderSlidShowComp3() {
   return (
@@ -34,7 +90,7 @@ export default function UnderSlidShowComp3() {
           </Button>
         </div>
       </div>
-      <div>
+      <div className={styles.products}>
         {products.map((item) => (
           <Product
             photo={item.photo}
