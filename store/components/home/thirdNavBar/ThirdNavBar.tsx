@@ -9,8 +9,11 @@ export default function ThirdNavBar() {
         textAlign: "center",
         background: "black",
         width: "100%",
+        paddingTop: "10px",
+        paddingBottom: "10px",
       }}
     >
+      <Container>
       <SelectComponent label="كل المنتجات">
         <option>منتج 1</option>
         <option>منتج 2</option>
@@ -61,6 +64,7 @@ export default function ThirdNavBar() {
         <option>منتج 2</option>
         <option>منتج 3</option>
       </SelectComponent>
+      </Container>
     </div>
   );
 }
