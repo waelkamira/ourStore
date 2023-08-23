@@ -8,8 +8,10 @@ export default function HomePage() {
     <div>
       <ThirdNavBar />
       <SlidShow />
-      <UnderSlidShowComp1 />
-      <UnderSlidShowComp2 />
+      <Container>
+        <UnderSlidShowComp1 />
+        <UnderSlidShowComp2 />
+      </Container>
     </div>
   );
 }
