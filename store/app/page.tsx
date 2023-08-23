@@ -4,7 +4,7 @@ import * as React from "react";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 import Container from "@mui/material/Container";
-
+import HomePage from "./home/page";
 const theme = createTheme({
   palette: {
     primary: {
