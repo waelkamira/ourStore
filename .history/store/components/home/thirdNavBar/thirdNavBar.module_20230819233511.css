@@ -1,0 +1,27 @@
+.box {
+  display: flex;
+  align-items: center;
+  /* background-color: #1d1f1f; */
+  padding: 0rem;
+  margin: 0rem;
+  border: 1px solid red;
+}
+
+.dropdownBtn:hover,
+.dropdownContent:hover {
+  display: block;
+  background-color: red;
+}
+
+.dropdownContent {
+  display: none;
+}
+
+.dropdownContent option {
+  display: block;
+}
+
+.dropdown:hover {
+  pointer-events: none;
+  background-color: red;
+}

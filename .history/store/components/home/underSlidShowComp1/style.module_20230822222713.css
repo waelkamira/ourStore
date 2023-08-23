@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  margin-top: 3rem;
+  border: 1px solid hsl(0deg 0% 81.18%);
+}
+.text {
+  margin-bottom: 0rem;
+  margin: 1rem;
+  font-weight: 700;
+  font-family: arabicFont;
+  border: 1px solid hsl(0, 100%, 48%);
+}
+.line {
+  height: 4rem;
+  width: 2px;
+  background: hsl(0, 0%, 91%);
+  margin: 1rem;
+}

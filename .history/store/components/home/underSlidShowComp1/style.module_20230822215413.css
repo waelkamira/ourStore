@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  border: 1px solid hsl(0deg 0% 97.65%);
+}
+
+.line {
+  height: 2rem;
+  width: 2px;
+  background: black;
+  margin: 1rem;
+}

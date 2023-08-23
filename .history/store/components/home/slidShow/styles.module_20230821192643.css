@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  text-align: center;
+  background: black;
+}
+
+.slider{
+   height: "70vh",
+          width: "70vw",
+          boxSizing: "border-box",
+          textAlign: "center",
+}
+.photo {
+  width: 10%;
+  border: 2px solid green;
+}

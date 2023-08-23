@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  margin-top: 3rem;
+  border: 1px solid hsl(0deg 0% 81.18%);
+}
+
+.iconStyle {
+  color: hsl(165.74deg 54.01% 63.33%);
+  font-size: 3rem;
+  margin: 1rem;
+  margin-top: 2rem;
+}
+.textStyle {
+  margin: 1rem;
+  /* margin-bottom: 0rem; */
+  font-weight: 700;
+  font-family: arabicFont;
+  /* border: 1px solid hsl(0, 100%, 48%); */
+}
+.line {
+  height: 4rem;
+  width: 2px;
+  background: hsl(0, 0%, 91%);
+  margin: 1rem;
+}

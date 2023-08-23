@@ -1,0 +1,13 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+.line {
+  height: 2rem;
+  width: 2px;
+  background: black;
+  margin: 1rem;
+}

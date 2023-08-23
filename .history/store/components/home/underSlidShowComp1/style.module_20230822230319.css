@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  margin-top: 3vw;
+  border: 1px solid hsl(0, 0%, 92%);
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+.iconStyle {
+  color: hsl(165.74deg 54.01% 63.33%);
+  font-size: 2vw;
+  margin: 0.5vw;
+  margin-top: 0.8vw;
+}
+.text1Style {
+  margin: 0.5vw;
+  font-weight: 700;
+  font-family: arabicFont;
+  font-size: 1vw;
+  /* border: 1px solid hsl(0, 100%, 48%); */
+}
+.text2Style {
+  margin: 0.5vw;
+  font-weight: 700;
+  font-family: arabicFont;
+  font-size: 0.9vw;
+  /* border: 1px solid hsl(0, 100%, 48%); */
+  color: hsl(0deg 0% 46.67%);
+}
+.line {
+  height: 5vw;
+  width: 2px;
+  background: hsl(0, 0%, 95%);
+  margin: 0.5vw;
+}

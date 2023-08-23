@@ -1,0 +1,7 @@
+.box {
+  display: flex;
+  align-items: center;
+  background-color: #1d1f1f;
+  padding: 0rem;
+  border: 1px solid red;
+}

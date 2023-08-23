@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  text-align: center;
+  background: black;
+}
+
+.slider {
+}
+.photo {
+  width: 10%;
+  border: 2px solid green;
+}

@@ -1,0 +1,8 @@
+.box {
+  display: flex;
+  align-items: center;
+  padding: 0rem;
+  margin: 0rem;
+  /* border: 1px solid red; */
+  width: 100%;
+}
