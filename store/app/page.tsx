@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import TopHeader from "../components/topHeaderNav/topHeader";
+import Button from "@mui/material/Button";
 import Container from "@mui/material/Container";
 import HomePage from "./home/page";
 const theme = createTheme({
@@ -30,11 +30,9 @@ const theme = createTheme({
 
 export default function Home() {
   return (
-    <ThemeProvider theme={theme}>
+    <>
       <Container>
-        <TopHeader />
       </Container>
-      <HomePage />
-    </ThemeProvider>
+    </>
   );
 }

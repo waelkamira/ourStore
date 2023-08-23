@@ -16,12 +16,76 @@
   }
 }
 
+/*DIN Next LT Arabic Font */
+
+@font-face {
+  font-family: 'DIN Next LT Arabic';
+  src: url('../Fonts/DIN-Next-LT-Arabic/ArbFONTS-DINNextLTArabic-Regular-2.ttf') format('truetype'),
+    url('../Fonts/DIN-Next-LT-Arabic/ArbFONTS-DINNextLTArabic-Regular-3.ttf') format('truetype'),
+    url('../Fonts/DIN-Next-LT-Arabic/ArbFONTS-DINNextLTArabic-Regular-4.ttf') format('truetype');
+  font-weight: normal;
+  /* Regular font weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN Next LT Arabic';
+  src: url('../Fonts/DIN-Next-LT-Arabic/ArbFONTS-DINNextLTArabic-Bold-2.ttf') format('truetype'),
+    url('../Fonts/DIN-Next-LT-Arabic/ArbFONTS-DINNextLTArabic-Bold-3.ttf') format('truetype'),
+    url('../Fonts/DIN-Next-LT-Arabic/ArbFONTS-DINNextLTArabic-Bold-4.ttf') format('truetype');
+  font-weight: bold;
+  /* Bold font weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN Next LT Arabic';
+  src: url('../Fonts/DIN-Next-LT-Arabic/ArbFONTS-DINNextLTArabic-Medium-2.ttf') format('truetype'),
+    url('../Fonts/DIN-Next-LT-Arabic/ArbFONTS-DINNextLTArabic-Medium-3.ttf') format('truetype'),
+    url('../Fonts/DIN-Next-LT-Arabic/ArbFONTS-DINNextLTArabic-Medium-4.ttf') format('truetype');
+  font-weight: medium;
+  /* Medium font weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN Next LT Arabic';
+  src: url('../Fonts/DIN-Next-LT-Arabic/ArbFONTS-DINNextLTArabic-Heavy-1.ttf') format('truetype'),
+    url('../Fonts/DIN-Next-LT-Arabic/ArbFONTS-DINNextLTArabic-Heavy2-1.ttf') format('truetype'),
+    url('../Fonts/DIN-Next-LT-Arabic/ArbFONTS-DINNextLTArabic-Heavy2-2.ttf') format('truetype');
+  font-weight: 900;
+  /* Heavy font weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN Next LT Arabic';
+  src: url('../Fonts/DIN-Next-LT-Arabic/ArbFONTS-DINNEXTLTARABIC-LIGHT-1.ttf') format('truetype'),
+    url('../Fonts/DIN-Next-LT-Arabic/ArbFONTS-DINNEXTLTARABIC-LIGHT-2-2.ttf') format('truetype');
+  font-weight: light;
+  /* LIGHT font weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN Next LT Arabic';
+  src: url('../Fonts/DIN-Next-LT-Arabic/ArbFONTS-DINNextLTArabic-UltraLight-1.ttf') format('truetype'),
+    url('../Fonts/DIN-Next-LT-Arabic/ArbFONTS-DINNextLTArabic-UltraLight-2.ttf') format('truetype'),
+    url('../Fonts/DIN-Next-LT-Arabic/ArbFONTS-DINNextLTArabic-UltraLight-3.ttf') format('truetype'),
+    url('../Fonts/DIN-Next-LT-Arabic/ArbFONTS-DINNextLTArabic-UltraLight-4.ttf') format('truetype');
+  font-weight: lighter;
+  /* UltraLight font weight */
+  font-style: normal;
+}
+
+
+
+
+
+
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  /* color: rgb(var(--foreground-rgb)); */
+  font-family: 'DIN Next LT Arabic' !important;
+  font-weight: normal !important;
 }

@@ -1,6 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import TopHeader from "../components/home/topHeaderNav/topHeader"
+import HeaderDetails from '@/components/home/headerDetails/headerDetails'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +18,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" dir='rtl'>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <TopHeader />
+        <HeaderDetails />
+      {children}
+      </body>
     </html>
   )
 }
