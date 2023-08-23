@@ -3,7 +3,7 @@ import * as React from "react";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 import Container from "@mui/material/Container";
-import HomePage from "./home/page";
+import HomePage from "../app/home/page";
 const theme = createTheme({
   palette: {
     primary: {
@@ -30,6 +30,7 @@ const theme = createTheme({
 export default function Home() {
   return (
     <>
+      <HomePage />
       <Container>
       </Container>
     </>
