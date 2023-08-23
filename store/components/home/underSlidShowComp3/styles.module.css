@@ -1,0 +1,10 @@
+.buttonAndTextBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  flex-direction: row;
+  /* border: 1px solid red; */
+}
+.textBox {
+  font-family: arabicFont;
+}
