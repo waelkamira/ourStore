@@ -2,10 +2,25 @@ import styles from "./styles.module.css";
 import Button from "@mui/material/Button";
 import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore";
 import Product from "./Product";
-import photo12 from "./photos/photo12.png";
+import photo1 from "./photos/photo1.png";
+import photo2 from "./photos/photo2.png";
+import photo3 from "./photos/photo3.png";
+import photo4 from "./photos/photo4.png";
+import photo5 from "./photos/photo5.png";
+import photo6 from "./photos/photo6.png";
+import photo7 from "./photos/photo7.png";
+import photo8 from "./photos/photo8.png";
 const products = [
   {
-    photo: photo12,
+    photo: photo1,
+    title: "ساعات",
+    subTitle: "سماعات ساوند كور كيو30 فوق الأذن",
+    details: "سماعة ذات صوت عالي الدقة",
+    price: "450.00 رس",
+    discount: "550.00 رس",
+  },
+  {
+    photo: photo2,
     title: "سماعات",
     subTitle: "سماعات ساوند كور كيو30 فوق الأذن",
     details: "سماعة ذات صوت عالي الدقة",
@@ -13,7 +28,15 @@ const products = [
     discount: "550.00 رس",
   },
   {
-    photo: photo12,
+    photo: photo3,
+    title: "ساعات",
+    subTitle: "سماعات ساوند كور كيو30 فوق الأذن",
+    details: "سماعة ذات صوت عالي الدقة",
+    price: "450.00 رس",
+    discount: "550.00 رس",
+  },
+  {
+    photo: photo4,
     title: "سماعات",
     subTitle: "سماعات ساوند كور كيو30 فوق الأذن",
     details: "سماعة ذات صوت عالي الدقة",
@@ -21,7 +44,7 @@ const products = [
     discount: "550.00 رس",
   },
   {
-    photo: photo12,
+    photo: photo5,
     title: "سماعات",
     subTitle: "سماعات ساوند كور كيو30 فوق الأذن",
     details: "سماعة ذات صوت عالي الدقة",
@@ -29,40 +52,24 @@ const products = [
     discount: "550.00 رس",
   },
   {
-    photo: photo12,
-    title: "سماعات",
+    photo: photo6,
+    title: "ساعات",
     subTitle: "سماعات ساوند كور كيو30 فوق الأذن",
     details: "سماعة ذات صوت عالي الدقة",
     price: "450.00 رس",
     discount: "550.00 رس",
   },
   {
-    photo: photo12,
-    title: "سماعات",
+    photo: photo7,
+    title: "موبايلات",
     subTitle: "سماعات ساوند كور كيو30 فوق الأذن",
     details: "سماعة ذات صوت عالي الدقة",
     price: "450.00 رس",
     discount: "550.00 رس",
   },
   {
-    photo: photo12,
-    title: "سماعات",
-    subTitle: "سماعات ساوند كور كيو30 فوق الأذن",
-    details: "سماعة ذات صوت عالي الدقة",
-    price: "450.00 رس",
-    discount: "550.00 رس",
-  },
-  {
-    photo: photo12,
-    title: "سماعات",
-    subTitle: "سماعات ساوند كور كيو30 فوق الأذن",
-    details: "سماعة ذات صوت عالي الدقة",
-    price: "450.00 رس",
-    discount: "550.00 رس",
-  },
-  {
-    photo: photo12,
-    title: "سماعات",
+    photo: photo8,
+    title: "موبايلات",
     subTitle: "سماعات ساوند كور كيو30 فوق الأذن",
     details: "سماعة ذات صوت عالي الدقة",
     price: "450.00 رس",
@@ -74,7 +81,7 @@ export default function UnderSlidShowComp3() {
     <div className={styles.main}>
       <div className={styles.buttonAndTextBox}>
         <div className={styles.textBox}>
-          <h3 style={{ fontSize: "2vw", fontWeight: "700" }}>منتجات مميزة</h3>
+          <h3 style={{ fontSize: "1.5vw", fontWeight: "700" }}>منتجات مميزة</h3>
           <h4 style={{ color: "hsl(0deg 0% 40.39%)", fontWeight: "700" }}>
             تسوق أحدث المنتجات المميزة المضافة جديد
           </h4>
