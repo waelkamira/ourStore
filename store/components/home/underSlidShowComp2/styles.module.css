@@ -1,6 +1,6 @@
-.photosBox {
+.main {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   flex-direction: row;
   padding-top: 1vw;
@@ -10,16 +10,26 @@
   /* border: 1px solid red; */
 }
 
-.photoBox {
+.photoAndTextBox {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+  /* border: 1px solid red; */
   position: relative;
 }
+
 .photo {
-  width: 29vw;
+  width: auto;
+  height: auto;
   box-sizing: border-box;
 }
 .textBox {
   position: absolute;
-  bottom: 3vw;
-  left: 1vw;
+  margin-left: 1rem;
   font-family: arabicFont;
+  z-index: 2;
 }
