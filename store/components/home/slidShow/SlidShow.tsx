@@ -55,9 +55,8 @@ export default function SlidShow() {
 
   return (
     <div className={Styles.main}>
-    <Container>
       <div className={Styles.textBox}>
-        <h1>أفضل التحفيضات 2023</h1>
+        <h1>أفضل التخفيضات 2023</h1>
         <p style={{ fontSize: "1rem" }}>
           متجر سلة يوفر لك كل ماتحتاجه من إلكترونيات أو أثاث منزلي بالإضافة إلى
           أفضل التخفيضات على المنتجات , تسوق الأن واستمتع بكل التخفيضات على
@@ -122,7 +121,6 @@ export default function SlidShow() {
           className="keen-slider__slide number-slide9"
         />
       </div>
-       </Container>
     </div>
   );
 }
