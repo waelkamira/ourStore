@@ -55,63 +55,74 @@ export default function SlidShow() {
 
   return (
     <div className={Styles.main}>
-      <Container>
-        <div
-          ref={sliderRef}
-          className="keen-slider"
-          style={{
-            height: "60vh",
-            boxSizing: "border-box",
-            textAlign: "center",
-          }}
-        >
-          <Image
-            src={photo1}
-            alt="/"
-            className="keen-slider__slide number-slide1 "
-          />
-          <Image
-            src={photo2}
-            alt="/"
-            className="keen-slider__slide number-slide2"
-          />
-          <Image
-            src={photo3}
-            alt="/"
-            className="keen-slider__slide number-slide3"
-          />
-          <Image
-            src={photo4}
-            alt="/"
-            className="keen-slider__slide number-slide4"
-          />
-          <Image
-            src={photo5}
-            alt="/"
-            className="keen-slider__slide number-slide5"
-          />
-          <Image
-            src={photo6}
-            alt="/"
-            className="keen-slider__slide number-slide6"
-          />
-          <Image
-            src={photo7}
-            alt="/"
-            className="keen-slider__slide number-slide7"
-          />
-          <Image
-            src={photo8}
-            alt="/"
-            className="keen-slider__slide number-slide8"
-          />
-          <Image
-            src={photo9}
-            alt="/"
-            className="keen-slider__slide number-slide9"
-          />
-        </div>
-      </Container>
+    <Container>
+      <div className={Styles.textBox}>
+        <h1>أفضل التحفيضات 2023</h1>
+        <p style={{ fontSize: "1rem" }}>
+          متجر سلة يوفر لك كل ماتحتاجه من إلكترونيات أو أثاث منزلي بالإضافة إلى
+          أفضل التخفيضات على المنتجات , تسوق الأن واستمتع بكل التخفيضات على
+          المنتجات
+        </p>
+        <button className={Styles.btn}>اكتشف المزيد</button>
+      </div>
+      <div
+        ref={sliderRef}
+        className="keen-slider"
+        style={{
+          height: "60vh",
+          width: "60vw",
+          boxSizing: "border-box",
+          textAlign: "center",
+          position: "relative",
+        }}
+      >
+        <Image
+          src={photo1}
+          alt="/"
+          className="keen-slider__slide number-slide1 "
+        />
+        <Image
+          src={photo2}
+          alt="/"
+          className="keen-slider__slide number-slide2"
+        />
+        <Image
+          src={photo3}
+          alt="/"
+          className="keen-slider__slide number-slide3"
+        />
+        <Image
+          src={photo4}
+          alt="/"
+          className="keen-slider__slide number-slide4"
+        />
+        <Image
+          src={photo5}
+          alt="/"
+          className="keen-slider__slide number-slide5"
+        />
+        <Image
+          src={photo6}
+          alt="/"
+          className="keen-slider__slide number-slide6"
+        />
+        <Image
+          src={photo7}
+          alt="/"
+          className="keen-slider__slide number-slide7"
+        />
+        <Image
+          src={photo8}
+          alt="/"
+          className="keen-slider__slide number-slide8"
+        />
+        <Image
+          src={photo9}
+          alt="/"
+          className="keen-slider__slide number-slide9"
+        />
+      </div>
+       </Container>
     </div>
   );
 }

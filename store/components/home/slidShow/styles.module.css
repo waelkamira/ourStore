@@ -2,7 +2,39 @@
   display: flex;
   justify-content: center;
   /* border: 1px solid red; */
-  box-sizing: border-box;
-  text-align: center;
+  text-align: start;
   background: black;
+}
+
+.photoDiv {
+  position: relative;
+}
+.textBox {
+  color: white;
+  position: absolute;
+  z-index: 1;
+  font-size: 3rem;
+  margin-top: 8rem;
+  font-family: arabicFont;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+.btn {
+  background-color: rgb(98 208 182);
+  font-size: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 3rem;
+  border-radius: 0.2rem;
+  font-weight: 900;
+}
+@font-face {
+  font-family: arabicFont;
+  src: url("./photos//DINNextLTArabic-Regular-3.ttf");
 }
