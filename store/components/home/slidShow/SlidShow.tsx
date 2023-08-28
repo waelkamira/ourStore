@@ -1,6 +1,7 @@
 "use client";
 import * as React from "react";
 import Box from "@mui/material/Box";
+import Container from "@mui/material/Container";
 import Styles from "./styles.module.css";
 import photo1 from "./photos/photo1.jpg";
 import photo2 from "./photos/photo2.jpg";
@@ -54,6 +55,7 @@ export default function SlidShow() {
 
   return (
     <div className={Styles.main}>
+    <Container>
       <div className={Styles.textBox}>
         <h1>أفضل التحفيضات 2023</h1>
         <p style={{ fontSize: "1rem" }}>
@@ -120,6 +122,7 @@ export default function SlidShow() {
           className="keen-slider__slide number-slide9"
         />
       </div>
+       </Container>
     </div>
   );
 }

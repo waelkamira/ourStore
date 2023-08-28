@@ -1,0 +1,25 @@
+.photosBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+  /* border: 1px solid red; */
+}
+
+.photoBox {
+  position: relative;
+}
+.photo {
+  width: 29vw;
+  box-sizing: border-box;
+}
+.textBox {
+  position: absolute;
+  bottom: 3vw;
+  left: 1vw;
+  font-family: arabicFont;
+}

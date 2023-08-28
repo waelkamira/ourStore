@@ -1,13 +1,18 @@
-import ThirdNavBar from "@/components/home/thirdNavBar/ThirdNavBar";
+
 import SlidShow from "@/components/home/slidShow/SlidShow";
 import Container from "@mui/material/Container";
+import UnderSlidShowComp1 from "@/components/home/underSlidShowComp1/underSlidShowComp1";
+import UnderSlidShowComp2 from "@/components/home/underSlidShowComp2/UnderSlidShowComp2";
+import FirstBanner from '@/components/home/firstBanner/firstBanner'
 export default function HomePage() {
   return (
-    <>
-      <div style={{ background: "black" }}>
-        <ThirdNavBar />
-      </div>
+    <div>
       <SlidShow />
-    </>
+      <UnderSlidShowComp1 />
+      <Container>
+        <UnderSlidShowComp2 />
+      </Container>
+      <FirstBanner />
+    </div>
   );
 }

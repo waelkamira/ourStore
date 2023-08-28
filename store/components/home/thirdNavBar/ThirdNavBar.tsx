@@ -4,7 +4,16 @@ import SelectComponent from "./SelectComponent";
 import Styles from "./thirdNavBar.module.css";
 export default function ThirdNavBar() {
   return (
-    <div style={{ textAlign: "center" }}>
+    <div
+      style={{
+        textAlign: "center",
+        background: "black",
+        width: "100%",
+        paddingTop: "10px",
+        paddingBottom: "10px",
+      }}
+    >
+      <Container>
       <SelectComponent label="كل المنتجات">
         <option>منتج 1</option>
         <option>منتج 2</option>
@@ -55,6 +64,7 @@ export default function ThirdNavBar() {
         <option>منتج 2</option>
         <option>منتج 3</option>
       </SelectComponent>
+      </Container>
     </div>
   );
 }

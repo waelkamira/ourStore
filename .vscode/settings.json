@@ -1,0 +1,11 @@
+{
+    "cSpell.words": [
+        "المشتريات"
+    ],
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "main"
+    ],
+    "files.associations": {
+        "*.css": "tailwindcss"
+      }
+}
