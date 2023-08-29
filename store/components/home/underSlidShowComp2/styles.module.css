@@ -30,6 +30,6 @@
 .textBox {
   position: absolute;
   margin-left: 1rem;
-  font-family: arabicFont;
+  /* font-family: arabicFont; */
   z-index: 2;
 }

@@ -41,9 +41,6 @@ export default function UnderSlidShowComp2() {
             className={styles.photo}
             style={{ background: "hsl(0deg 30% 92.16%) " }}
           />
-          <h1 style={{ position: "absolute", zIndex: "2", bottom: "1rem" }}>
-            dfsdfsfsd
-          </h1>
         </div>
         <div className={styles.textBox}>
           <h4 style={{ color: "hsl(200deg 1.28% 53.92%)", fontWeight: "700" }}>
