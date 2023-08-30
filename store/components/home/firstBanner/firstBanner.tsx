@@ -7,7 +7,7 @@ import bannerChildImage from "./images/lap.png"
 
 export default function firstBanner() {
   return (
-    <div  className="bg-black py-24 mb-72">
+    <div  className="bg-black py-24 mb-14">
         <Container className='flex gap-x-12'>
             <div className='flex flex-col'>
                 <h2 className='text-white text-5xl font-bold leading-[70px] my-4'>أفضل التخفيضات 2022</h2>
