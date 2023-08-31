@@ -108,7 +108,7 @@ export default function UnderSlideshowCompo3Update() {
         </div>
       </div>
       <div className={styles.products}>
-        {/* .......... تم عمل ماب على قائمة العناصر ليتم تحديثها بشكل أتوماتيكي في الملف*/}
+        {/* ....... تم عمل ماب على قائمة العناصر ليتم تحديثها بشكل أتوماتيكي في الملف*/}
         {products.map((item) => (
           <Product
             key={item.id}
