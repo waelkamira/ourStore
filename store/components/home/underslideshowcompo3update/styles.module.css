@@ -1,0 +1,66 @@
+.main {
+  margin-top: 4vw;
+  margin-top: 2vw;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid hsl(0deg 0.27% 89.89%);
+  border-radius: 0.3vw;
+  flex-grow: 1;
+  width: fit-content;
+  max-width: 273px;
+  min-width: 100px;
+}
+.product:hover {
+  border: 1px solid hsl(165.82deg 53.92% 60%);
+}
+/* .image {
+  background-image: url("/store/public/photo12.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+.buttonAndTextBox {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: end;
+  flex-direction: row;
+}
+.textBox {
+  font-family: arabicFont;
+}
+
+.btn {
+  flex-grow: 1;
+  color: black;
+  font-size: 0.9vw;
+  font-family: arabicFont;
+  margin-top: 0.65vw;
+  margin-bottom: 0.65vw;
+  margin-left: 0.5vw;
+  border: 1px solid hsl(0deg 0% 86.67%);
+  font-weight: 700;
+}
+
+.btnIcon {
+  color: hsl(0deg 0% 86.67%);
+  font-size: 1vw;
+  border: 1px solid hsl(0deg 0% 86.67%);
+  margin: 0.65vw;
+  margin-left: 0vw;
+  margin-right: 0vw;
+}
+.btn:hover,
+.btnIcon:hover {
+  background-color: hsl(165.82deg 53.92% 60%);
+  color: white;
+}
+
+.products {
+  margin-top: 1vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1vw;
+}

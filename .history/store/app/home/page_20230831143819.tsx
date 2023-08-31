@@ -12,7 +12,7 @@ export default function HomePage() {
       <UnderSlidShowComp1 />
       <Container>
         <UnderSlidShowComp2 />
-        <UnderSlideshowCompo3Update />
+        <underslideshowcompo3update />
       </Container>
       <FirstBanner />
       <Container>
