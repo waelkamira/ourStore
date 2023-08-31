@@ -98,6 +98,7 @@ export default function UnderSlidShowComp3() {
         </div>
       </div>
       <div className={styles.products}>
+        {/* تم عمل ماب على قائمة العناصر ليتم تحديثها بشكل أتوماتيكي */}
         {products.map((item) => (
           <Product
             photo={item.photo}
