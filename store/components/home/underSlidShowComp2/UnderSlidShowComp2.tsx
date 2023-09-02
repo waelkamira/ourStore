@@ -16,17 +16,38 @@ export default function UnderSlidShowComp2() {
             }}
           />
         </div>
-        <div className={styles.textBox} style={{ marginLeft: "2rem" }}>
+        <div
+          className={styles.textBox}
+          style={{
+            marginLeft: "2rem",
+          }}
+        >
           <h4
             style={{
               color: "hsl(200deg 1.28% 53.92%)",
               fontWeight: "700",
+              fontSize: "clamp(1rem, 0vw + 1rem, 1rem)",
             }}
           >
             سماعات ديجيتال
           </h4>
-          <h1 style={{ fontSize: "2vw", fontWeight: "700" }}>أفضل صوت نقي</h1>
-          <h3 style={{ fontWeight: "700", marginTop: "1vw" }}>تسوق الأن</h3>
+          <h1
+            style={{
+              fontWeight: "700",
+              fontSize: "clamp(1.25rem, 1.429vw + 0.964rem, 2.25rem)",
+            }}
+          >
+            أفضل صوت نقي
+          </h1>
+          <h3
+            style={{
+              fontWeight: "700",
+              marginTop: "1vw",
+              fontSize: "clamp(1rem, 0vw + 1rem, 1rem)",
+            }}
+          >
+            تسوق الأن
+          </h3>
         </div>
       </div>
       <div className={styles.photoAndTextBox}>
@@ -43,11 +64,32 @@ export default function UnderSlidShowComp2() {
           />
         </div>
         <div className={styles.textBox}>
-          <h4 style={{ color: "hsl(200deg 1.28% 53.92%)", fontWeight: "700" }}>
+          <h4
+            style={{
+              color: "hsl(200deg 1.28% 53.92%)",
+              fontWeight: "700",
+              fontSize: "clamp(1rem, 0vw + 1rem, 1rem)",
+            }}
+          >
             سماعات ديجيتال
           </h4>
-          <h1 style={{ fontSize: "2vw", fontWeight: "700" }}>أفضل صوت نقي</h1>
-          <h3 style={{ fontWeight: "700", marginTop: "1vw" }}>تسوق الأن</h3>
+          <h1
+            style={{
+              fontWeight: "700",
+              fontSize: "clamp(1.25rem, 1.429vw + 0.964rem, 2.25rem)",
+            }}
+          >
+            أفضل صوت نقي
+          </h1>
+          <h3
+            style={{
+              fontWeight: "700",
+              marginTop: "1vw",
+              fontSize: "clamp(1rem, 0vw + 1rem, 1rem)",
+            }}
+          >
+            تسوق الأن
+          </h3>
         </div>
       </div>
     </div>
