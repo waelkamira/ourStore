@@ -1,0 +1,36 @@
+.main {
+  margin-top: 4vw;
+  margin-top: 2vw;
+}
+
+.buttonAndTextBox {
+  display: flex;
+  align-items: space-between;
+  border: 1px solid rgb(17, 255, 0);
+}
+
+.btn {
+  flex-grow: 1;
+  color: black;
+  font-size: 0.9vw;
+  font-family: arabicFont;
+  margin-top: 0.65vw;
+  margin-bottom: 0.65vw;
+  margin-left: 0.5vw;
+  border: 1px solid hsl(0deg 0% 86.67%);
+  font-weight: 700;
+}
+
+.btnIcon {
+  color: hsl(0deg 0% 86.67%);
+  font-size: 1vw;
+  border: 1px solid hsl(0deg 0% 86.67%);
+  margin: 0.65vw;
+  margin-left: 0vw;
+  margin-right: 0vw;
+}
+.btn:hover,
+.btnIcon:hover {
+  background-color: hsl(165.82deg 53.92% 60%);
+  color: white;
+}
