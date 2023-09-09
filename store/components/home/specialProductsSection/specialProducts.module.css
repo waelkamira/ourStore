@@ -1,0 +1,77 @@
+.main {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid hsl(0deg 0.27% 89.89%);
+  border-radius: 0.3rem;
+  /* flex-grow: 1; */
+  /* width: fit-content; */
+  max-width: 273px;
+  /* min-width: 100px; */
+}
+.product:hover {
+  border: 1px solid hsl(165.82deg 53.92% 60%);
+}
+
+.buttonAndTextBox {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: row;
+}
+.textBox {
+  font-family: arabicFont;
+}
+
+.btn {
+  flex-grow: 1;
+  color: black;
+  font-size: 0.9rem;
+  font-family: arabicFont;
+  margin-top: 0.65rem;
+  margin-bottom: 0.65rem;
+  margin-left: 0.5rem;
+  border: 1px solid hsl(0deg 0% 86.67%);
+  font-weight: 700;
+}
+
+.btnIcon {
+  color: hsl(0deg 0% 86.67%);
+  font-size: 1rem;
+  border: 1px solid hsl(0deg 0% 86.67%);
+  margin: 0.65rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+.btn:hover,
+.btnIcon:hover {
+  background-color: hsl(165.82deg 53.92% 60%);
+  color: white;
+  border: none;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.titleBtn {
+  margin-bottom: 0;
+  font-size: 1rem;
+  border: 1px solid #62d0b6;
+  border-radius: 4px;
+  color: #62d0b6;
+  /* font-family: arabicFont; */
+}
+
+.titleBtn:hover {
+  background-color: #62d0b6;
+  color: white;
+}

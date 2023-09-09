@@ -6,6 +6,8 @@ import FirstBanner from "@/components/home/firstBanner/firstBanner";
 import ProductCategories from "@/components/home/productCategories/productCategory";
 import UnderSlideshowCompo3Update from "@/components/home/underslideshowcompo3update/UnderSlideshowCompo3Update";
 import DiscountProductsContainer from "@/components/home/discountproductscontainer/DiscountProductsContainer";
+import SpicalProductsSection from '@/components/home/specialProductsSection/specialProductsSection'
+import VideoSection from "@/components/home/videoSection/videoSection";
 export default function HomePage() {
   return (
     <div>
@@ -19,7 +21,9 @@ export default function HomePage() {
       <Container>
         <ProductCategories />
         <DiscountProductsContainer />
+        <SpicalProductsSection />
       </Container>
+      < VideoSection />
     </div>
   );
 }

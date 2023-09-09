@@ -90,7 +90,7 @@
 
 
 
-body,html,p,h1,h2,h3,h4,h5,h6,span {
+body,html,p,h1,h2,h3,h4,h5,h6,span,button {
   /* color: rgb(var(--foreground-rgb)); */
   font-family: 'DIN Next LT Arabic' !important;
   font-weight: normal;
