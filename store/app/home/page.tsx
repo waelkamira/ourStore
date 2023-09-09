@@ -6,6 +6,7 @@ import FirstBanner from "@/components/home/firstBanner/firstBanner";
 import ProductCategories from "@/components/home/productCategories/productCategory";
 import UnderSlideshowCompo3Update from "@/components/home/underslideshowcompo3update/UnderSlideshowCompo3Update";
 import BannersSection from "@/components/home/bannersSection/bannersSection";
+import DiscountProductsContainer from "@/components/home/discountproductscontainer/DiscountProductsContainer";
 export default function HomePage() {
   return (
     <div>
@@ -19,6 +20,7 @@ export default function HomePage() {
       <Container>
         <ProductCategories />
         <BannersSection />
+        <DiscountProductsContainer />
       </Container>
     </div>
   );

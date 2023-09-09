@@ -1,6 +1,6 @@
 .main {
   margin-top: 4vw;
-  margin-top: 2vw;
+  margin-bottom: 3vw;
 }
 
 .product {
@@ -16,11 +16,7 @@
 .product:hover {
   border: 1px solid hsl(165.82deg 53.92% 60%);
 }
-/* .image {
-  background-image: url("/store/public/photo12.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
+
 .buttonAndTextBox {
   display: flex;
   flex-grow: 1;
