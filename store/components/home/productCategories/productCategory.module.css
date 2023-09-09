@@ -19,3 +19,9 @@
     height: 14px !important;
     margin-top: 4px;
 }
+
+.btn:hover > span .leftArrowIcon{
+    background-color: black;
+    filter: invert(100%);
+    fill: antiquewhite;
+}
