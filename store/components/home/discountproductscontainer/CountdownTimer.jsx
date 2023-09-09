@@ -33,7 +33,7 @@ const renderer = ({ days, hours, minutes, seconds }) => {
 export default function CountdownTimer() {
   return (
     <div>
-      <Countdown date="2023-10-01T01:02:03" renderer={renderer} />
+      <Countdown ate={Date.now() + 10000} renderer={renderer} />
     </div>
   );
 }

@@ -8,6 +8,7 @@ import HoverRating from "./Rating";
 import * as React from "react";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
+import ReusableButton from "@/components/reusableComponents/button/Button";
 import Discount from "./photos/Discount.png";
 export default function DiscountProductsContainer() {
   const [value, setValue] = React.useState(0);
@@ -23,14 +24,7 @@ export default function DiscountProductsContainer() {
           </h4>
         </div>
         <div>
-          <Button
-            variant="outlined"
-            color="primary"
-            style={{ marginBottom: "0vw" }}
-          >
-            عرض الكل
-            <NavigateBeforeIcon />
-          </Button>
+          <ReusableButton />
         </div>
       </div>
       <div className={styles.discountDivs}>

@@ -11,6 +11,7 @@ import photo6 from "./photos/photo6.png";
 import photo7 from "./photos/photo7.png";
 import photo8 from "./photos/photo8.png";
 import { useId } from "react";
+import ReusableButton from "@/components/reusableComponents/button/Button";
 
 export default function UnderSlideshowCompo3Update() {
   const products = [
@@ -97,14 +98,7 @@ export default function UnderSlideshowCompo3Update() {
           </h4>
         </div>
         <div>
-          <Button
-            variant="outlined"
-            color="primary"
-            style={{ marginBottom: "0rem" }}
-          >
-            عرض الكل
-            <NavigateBeforeIcon />
-          </Button>
+          <ReusableButton />
         </div>
       </div>
       <div className={styles.products}>
