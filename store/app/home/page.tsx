@@ -13,6 +13,7 @@ import ArrivedProductsContainer from "@/components/home/arrivedproductscontainer
 export default function HomePage() {
   return (
     <div>
+      {/* ..... */}
       <SlidShow />
       <UnderSlidShowComp1 />
       <Container>
