@@ -11,6 +11,7 @@ import SpicalProductsSection from "@/components/home/specialProductsSection/spec
 import VideoSection from "@/components/home/videoSection/videoSection";
 import ArrivedProductsContainer from "@/components/home/arrivedproductscontainer/ArrivedProductsContainer";
 import ProductsContainer from "@/components/home/productsContainer/ProductsContainer";
+import BannerContainer from "@/components/home/bannerContainer/BannerContainer";
 export default function HomePage() {
   return (
     <div>
@@ -30,6 +31,9 @@ export default function HomePage() {
       <ArrivedProductsContainer />
       <Container>
         <ProductsContainer />
+      </Container>
+      <BannerContainer />
+      <Container>
         <SpicalProductsSection />
       </Container>
 
