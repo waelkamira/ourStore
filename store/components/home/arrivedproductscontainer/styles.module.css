@@ -1,0 +1,21 @@
+.main {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  background-color: #f8f8f8;
+  padding: 3rem;
+}
+
+.buttonAndTextBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  /* border: 1px solid rgb(255, 119, 0); */
+  margin-bottom: 2rem;
+}
+
+.products {
+  margin-top: 1vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1vw;
+}

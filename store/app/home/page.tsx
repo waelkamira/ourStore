@@ -7,11 +7,13 @@ import ProductCategories from "@/components/home/productCategories/productCatego
 import UnderSlideshowCompo3Update from "@/components/home/underslideshowcompo3update/UnderSlideshowCompo3Update";
 import BannersSection from "@/components/home/bannersSection/bannersSection";
 import DiscountProductsContainer from "@/components/home/discountproductscontainer/DiscountProductsContainer";
-import SpicalProductsSection from '@/components/home/specialProductsSection/specialProductsSection'
+import SpicalProductsSection from "@/components/home/specialProductsSection/specialProductsSection";
 import VideoSection from "@/components/home/videoSection/videoSection";
+import ArrivedProductsContainer from "@/components/home/arrivedproductscontainer/ArrivedProductsContainer";
 export default function HomePage() {
   return (
     <div>
+      {/* ..... */}
       <SlidShow />
       <UnderSlidShowComp1 />
       <Container>
@@ -23,9 +25,12 @@ export default function HomePage() {
         <ProductCategories />
         <BannersSection />
         <DiscountProductsContainer />
+      </Container>
+      <ArrivedProductsContainer />
+      <Container>
         <SpicalProductsSection />
       </Container>
-      < VideoSection />
+      <VideoSection />
     </div>
   );
 }
