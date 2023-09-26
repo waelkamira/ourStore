@@ -10,8 +10,10 @@ import DiscountProductsContainer from "@/components/home/discountproductscontain
 import SpicalProductsSection from "@/components/home/specialProductsSection/specialProductsSection";
 import VideoSection from "@/components/home/videoSection/videoSection";
 import ArrivedProductsContainer from "@/components/home/arrivedproductscontainer/ArrivedProductsContainer";
+import CommentsSection from "@/components/home/commentsSection/comments"
 import ProductsContainer from "@/components/home/productsContainer/ProductsContainer";
 import BannerContainer from "@/components/home/bannerContainer/BannerContainer";
+
 export default function HomePage() {
   return (
     <div>
@@ -36,8 +38,10 @@ export default function HomePage() {
       <Container>
         <SpicalProductsSection />
       </Container>
-
       <VideoSection />
+      <Container>
+        <CommentsSection />
+      </Container>
     </div>
   );
 }

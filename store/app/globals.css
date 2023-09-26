@@ -96,3 +96,8 @@ body,html,p,h1,h2,h3,h4,h5,h6,span,button {
   font-weight: normal;
 }
 
+/* slick slider modifications */
+.slick-slide {
+  padding: 0 12px;
+  box-sizing: border-box;
+}
