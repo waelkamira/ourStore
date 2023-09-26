@@ -1,8 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import Slider from "react-slick";
-
 import userOne from "./images/Ellipse-5.png";
-import Styles from './styles.module.css';
 import Card from './Card';
 import NextArrow from './NextArrow';
 import PrevArrow from './PrevArrow';
