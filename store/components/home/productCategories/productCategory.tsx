@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import Button from "@/components/reusableComponents/button/Button";
 import airbudsImage from "@/components/home/productCategories/images/Image.png"
 import headphonesImage from "@/components/home/productCategories/images/Imageheadphone.png"
 import laptopsImage from "@/components/home/productCategories/images/Imagelaptops.png"
@@ -20,19 +21,7 @@ export default function productCategory() {
           </h5>
         </div>
         <div>
-          <button className="btn flex items-center border border-[#62D0B6] text-[#62D0B6] rounded pb-3 pt-2 px-4 hover:bg-[#62D0B6] hover:text-[#ffffff]">
-            عرض الكل
-            <span className="mr-2">
-              <Image
-                id="img"
-                className={Styles.leftArrowIcon}
-                src={leftArrow}
-                alt="#"
-                width={0}
-                height={0}
-              />
-            </span>
-          </button>
+          <Button />
         </div>
       </div>
       <div className="flex gap-x-6 justify-center">
