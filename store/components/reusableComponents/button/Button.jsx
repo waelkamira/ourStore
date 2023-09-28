@@ -9,10 +9,10 @@ export default function ReusableButton({
     <Button
       color={color}
       variant={variant}
-      className="flex items-center border border-[#62D0B6] text-[#62D0B6] rounded pb-3 pt-2 px-4"
+      className="flex items-center border border-[#62D0B6] text-[#62D0B6] rounded pb-2 pt-1 px-4 hover:bg-[#62D0B6] hover:text-white hover:border-[#62D0B6]"
     >
       {children}
-      <NavigateBeforeIcon />
+      <NavigateBeforeIcon className="mt-1 mr-[6px]"/>
     </Button>
   );
 }

@@ -1,6 +1,5 @@
 import styles from "./specialProducts.module.css";
-import Button from "@mui/material/Button";
-import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore";
+import Button from "@/components/reusableComponents/button/Button";
 import Product from "./specialProducts";
 import photo1 from "./photos/photo1.png";
 import photo2 from "./photos/photo2.png";
@@ -97,10 +96,7 @@ export default function UnderSlideshowCompo3Update() {
           </h4>
         </div>
         <div>
-          <Button className={styles.titleBtn}>
-            عرض الكل
-            <NavigateBeforeIcon />
-          </Button>
+          <Button />
         </div>
       </div>
       <div className={styles.products}>
