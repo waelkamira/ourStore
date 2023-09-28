@@ -1,24 +1,22 @@
 .main {
   margin-top: 5rem;
   margin-bottom: 5rem;
-  /* border: 1px solid rgb(17, 255, 0); */
 }
 
 .buttonAndTextBox {
   display: flex;
   justify-content: space-between;
-  align-items: end;
-  /* border: 1px solid rgb(255, 119, 0); */
+  align-items: flex-end;
   margin-bottom: 2rem;
 }
 
 .btn {
   flex-grow: 1;
   color: rgb(255, 255, 255);
-  font-size: clamp(1rem, 0vw + 1rem, 1rem);
-  margin-top: 0.65vw;
+  font-size: clamp(1rem, 0rem + 1rem, 1rem);
+  margin-top: 0.65rem;
   margin-bottom: 0rem;
-  margin-left: 0.5vw;
+  margin-left: 0.5rem;
   border: 1px solid hsl(0deg 0% 86.67%);
   font-weight: 700;
   background-color: #62d0b6;
@@ -26,9 +24,9 @@
 
 .btnIcon {
   color: hsl(0deg 0% 86.67%);
-  font-size: 1vw;
+  font-size: 1rem;
   border: 1px solid hsl(0deg 0% 86.67%);
-  margin-top: 0.65vw;
+  margin-top: 0.65rem;
 }
 .btn:hover,
 .btnIcon:hover {
@@ -39,10 +37,10 @@
 
 .countdownDivs {
   background: #efefef;
-  padding-left: 1.1vw;
-  padding-right: 1.1vw;
-  padding-top: 0.5vw;
-  padding-bottom: 0.5vw;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   border-radius: 5px;
 }
 .countdownNumber {

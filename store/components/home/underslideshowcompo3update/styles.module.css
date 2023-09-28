@@ -1,13 +1,13 @@
 .main {
-  margin-top: 4vw;
-  margin-bottom: 3vw;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
 }
 
 .product {
   display: flex;
   flex-direction: column;
   border: 1px solid hsl(0deg 0.27% 89.89%);
-  border-radius: 0.3vw;
+  border-radius: 0.3rem;
   flex-grow: 1;
   width: fit-content;
   max-width: 273px;
@@ -21,7 +21,7 @@
   display: flex;
   flex-grow: 1;
   justify-content: space-between;
-  align-items: end;
+  align-items: flex-end;
   flex-direction: row;
 }
 .textBox {
@@ -31,22 +31,22 @@
 .btn {
   flex-grow: 1;
   color: black;
-  font-size: 0.9vw;
+  font-size: 0.9rem;
   font-family: arabicFont;
-  margin-top: 0.65vw;
-  margin-bottom: 0.65vw;
-  margin-left: 0.5vw;
+  margin-top: 0.65rem;
+  margin-bottom: 0.65rem;
+  margin-left: 0.5rem;
   border: 1px solid hsl(0deg 0% 86.67%);
   font-weight: 700;
 }
 
 .btnIcon {
   color: hsl(0deg 0% 86.67%);
-  font-size: 1vw;
+  font-size: 1rem;
   border: 1px solid hsl(0deg 0% 86.67%);
-  margin: 0.65vw;
-  margin-left: 0vw;
-  margin-right: 0vw;
+  margin: 0.65rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
 }
 .btn:hover,
 .btnIcon:hover {
@@ -55,8 +55,8 @@
 }
 
 .products {
-  margin-top: 1vw;
+  margin-top: 1rem;
   display: flex;
   flex-wrap: wrap;
-  gap: 1vw;
+  gap: 1rem;
 }
