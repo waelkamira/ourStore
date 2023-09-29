@@ -14,6 +14,7 @@ import CommentsSection from "@/components/home/commentsSection/comments";
 import ProductsContainer from "@/components/home/productsContainer/ProductsContainer";
 import BannerContainer from "@/components/home/bannerContainer/BannerContainer";
 import BlogCardsSection from '@/components/home/blogCardsSection/cardsSection';
+import BrandsSection from '@/components/home/brandsSection/brandsSection';
 
 export default function HomePage() {
   return (
@@ -43,6 +44,7 @@ export default function HomePage() {
       <Container>
         <CommentsSection />
         <BlogCardsSection />
+        <BrandsSection />
       </Container>
     </div>
   );
