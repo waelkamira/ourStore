@@ -43,6 +43,7 @@ export default function ProductsContainer() {
     >
       {products.map((item) => (
         <Product
+          key={item.id}
           id={item.id}
           photo={item.photo}
           title={item.title}

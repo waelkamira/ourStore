@@ -26,7 +26,7 @@ export default function Product({
           padding: "10px",
         }}
       >
-        <Image src={photo} />
+        <Image src={photo} alt="product image"/>
       </div>
       <div
         style={{
